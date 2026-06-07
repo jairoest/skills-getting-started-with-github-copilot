@@ -8,6 +8,21 @@ Mona here. I'm done preparing your exercise. Hope you enjoy! 💚
 
 Remember, it's self-paced so feel free to take a break! ☕️
 
+## Running tests
+
+This project now includes backend FastAPI tests in the top-level `tests/` directory. Install dependencies and run:
+
+```bash
+docker run --rm -v "$PWD":/workspace -w /workspace python:3.13 bash -lc "pip install -r requirements.txt && pytest -q"
+```
+
+If you are in the repo environment already, use:
+
+```bash
+pip install -r requirements.txt
+pytest -q
+```
+
 [![](https://img.shields.io/badge/Go%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/jairoest/skills-getting-started-with-github-copilot/issues/1)
 
 ---
